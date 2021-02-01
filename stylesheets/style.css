@@ -1,3 +1,12 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+}
+
 html {
     font-family: monospace;
 }
@@ -5,9 +14,63 @@ body {
     font-family:Exo 2;
 }
 h1 {
+    color: #F5F5F5;
     font-family: monospace;
 }
 h2 {
     color: #F5F5F5;
     font-family: monospace;
+    padding-top: 3rem;
 }
+
+h3 {
+    color: #F5F5F5;
+    font-family: monospace;
+    letter-spacing: 0,2vw;
+}
+.Container {
+    width: 70%;
+    margin: 0 auto;
+}
+.responsiv {
+    width: 100%;
+    height: auto;
+}
+
+.Mars {
+    padding: 1vw;
+    max-width: 100%;
+    height: auto;
+}
+
+.World {
+    max-width: 10rem;
+    padding: 1vh;
+}
+
+@media (max-width: 900px){
+body {
+    background-color: saddlebrown;
+}
+.World {
+    max-width: 8rem;
+    padding: 2vh;
+}
+}
+
+@media (max-width: 660px){
+    body {
+        background-color: rebeccapurple;
+    }
+    .World {
+        max-width: 7rem;
+        padding: 3vh;
+    }
+}
+
+@media (max-width: 400px){
+    body {
+        background-color: red;
+    }
+}
+

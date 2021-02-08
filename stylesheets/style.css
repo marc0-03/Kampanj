@@ -64,6 +64,7 @@ li {
     padding: 1vw;
     max-width: 100%;
     height: auto;
+    margin-left: 80%;
 }
 
 .World {
@@ -71,29 +72,65 @@ li {
     padding: 1vh;
 }
 
-@media (max-width: 900px){
-body {
-    background-color: saddlebrown;
+.Planetmoon {
+    width: 60rem;
 }
+
+.Bigtext{
+    font-size: 4vw;
+}
+.Undertext{
+    font-size: 2vw;
+}
+
+@media (max-width: 900px){
 .World {
     max-width: 8rem;
     padding: 2vh;
 }
+.Planetmoon {
+    width: 50rem;
+}
+.Mars {
+    margin-left: 75%;
+    width: 10rem;
+}
+.Bigtext{
+    font-size: 4,5vw;
+}
+.Undertext{
+    font-size: 2,5vw;
+}
 }
 
 @media (max-width: 660px){
-    body {
-        background-color: rebeccapurple;
-    }
     .World {
         max-width: 7rem;
         padding: 3vh;
     }
+    .Planetmoon {
+        width: 35rem;
+    }
+    .Mars {
+        margin-left: 60%;
+    }
+    .Bigtext{
+        font-size: 5vw;
+    }
+    .Undertext{
+        font-size: 3vw;
+    }
 }
 
 @media (max-width: 400px){
-    body {
-        background-color: red;
+    .Mars {
+        margin-left: 50%;
+    }
+    .Bigtext{
+        font-size: 6vw;
+    }
+    .Undertext{
+        font-size: 4vw;
     }
 }
 

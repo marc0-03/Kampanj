@@ -95,11 +95,21 @@ li {
     margin-left: 75%;
     width: 10rem;
 }
+h2 {
+    font-size: 1,5rem;
+}
+h3 {
+    font-size: 1rem;
+}
 .Bigtext{
     font-size: 4,5vw;
 }
 .Undertext{
     font-size: 2,5vw;
+}
+.Container {
+    width: 75%;
+    margin: 0 auto;
 }
 }
 
@@ -120,6 +130,10 @@ li {
     .Undertext{
         font-size: 3vw;
     }
+    .Container {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 400px){
@@ -131,6 +145,16 @@ li {
     }
     .Undertext{
         font-size: 4vw;
+    }
+    .Container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: 1,5rem;
+    }
+    h3 {
+        font-size: 1rem;
     }
 }
 
